@@ -17,6 +17,7 @@ from sportsbetting.database_functions import (
     is_in_db_site, get_formatted_name_by_id
 )
 
+# TODO : utiliser https://offer.cdn.begmedia.com/api/pub/
 def parse_betclic_api(id_league):
     """
     Get odds from Betclic API

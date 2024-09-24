@@ -1,8 +1,5 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-![Build windows](https://github.com/crypthe0/Sports-betting/workflows/Windows/badge.svg)
-![Build ubuntu](https://github.com/crypthe0/Sports-betting/workflows/Ubuntu/badge.svg)
-![Build mac os](https://github.com/crypthe0/Sports-betting/workflows/Mac%20OS/badge.svg)
 [![GitHub license](https://img.shields.io/github/license/crypthe0/Sports-betting.svg)](https://github.com/crypthe0/Sports-betting/blob/master/LICENSE)
 
 # Sports-betting

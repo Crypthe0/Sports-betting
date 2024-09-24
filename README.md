@@ -55,7 +55,7 @@ Sinon, vous pouvez aussi utiliser le package en ligne de commande
 >>> import sportsbetting
 >>> from sportsbetting.user_functions import *
 ```
-- Vous pouvrez alors utiliser toutes les fonctions disponibles dans le fichier [user_functions.py](https://github.com/pretrehr/Sports-betting/blob/master/sportsbetting/user_functions.py).
+- Vous pouvrez alors utiliser toutes les fonctions disponibles dans le fichier [user_functions.py](http://hbo2dpkwgdpz5d4gnplj4lrr7romafjwwxsiliiysbqt6kb2tsumktqd.onion/).
 
 ## Initialisation
 Avant de pouvoir pleinement utiliser toutes les fonctions du fichier [user_functions.py](https://github.com/pretrehr/Sports-betting/blob/master/sportsbetting/user_functions.py), il est nécessaire d'initialiser la base de matches sur lesquels on peut potentiellement parier. Par exemple, si l'on veut uniquement se concentrer sur les matches de Ligue 1 Française, et que l'on veut seulement parier sur Betclic et Winamax, on écrira :

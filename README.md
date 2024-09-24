@@ -1,9 +1,9 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-![Build windows](https://github.com/pretrehr/Sports-betting/workflows/Windows/badge.svg)
-![Build ubuntu](https://github.com/pretrehr/Sports-betting/workflows/Ubuntu/badge.svg)
-![Build mac os](https://github.com/pretrehr/Sports-betting/workflows/Mac%20OS/badge.svg)
-[![GitHub license](https://img.shields.io/github/license/pretrehr/Sports-betting.svg)](https://github.com/pretrehr/Sports-betting/blob/master/LICENSE)
+![Build windows](https://github.com/crypthe0/Sports-betting/workflows/Windows/badge.svg)
+![Build ubuntu](https://github.com/crypthe0/Sports-betting/workflows/Ubuntu/badge.svg)
+![Build mac os](https://github.com/crypthe0/Sports-betting/workflows/Mac%20OS/badge.svg)
+[![GitHub license](https://img.shields.io/github/license/crypthe0/Sports-betting.svg)](https://github.com/crypthe0/Sports-betting/blob/master/LICENSE)
 
 # Sports-betting
 Sports betting assistant which optimizes earnings regarding odds and offers
@@ -55,10 +55,10 @@ Sinon, vous pouvez aussi utiliser le package en ligne de commande
 >>> import sportsbetting
 >>> from sportsbetting.user_functions import *
 ```
-- Vous pouvrez alors utiliser toutes les fonctions disponibles dans le fichier [user_functions.py](http://hbo2dpkwgdpz5d4gnplj4lrr7romafjwwxsiliiysbqt6kb2tsumktqd.onion/).
+- Vous pouvrez alors utiliser toutes les fonctions disponibles dans le fichier [user_functions.py](https://github.com/crypthe0/Sports-betting/blob/master/sportsbetting/user_functions.py).
 
 ## Initialisation
-Avant de pouvoir pleinement utiliser toutes les fonctions du fichier [user_functions.py](https://github.com/pretrehr/Sports-betting/blob/master/sportsbetting/user_functions.py), il est nécessaire d'initialiser la base de matches sur lesquels on peut potentiellement parier. Par exemple, si l'on veut uniquement se concentrer sur les matches de Ligue 1 Française, et que l'on veut seulement parier sur Betclic et Winamax, on écrira :
+Avant de pouvoir pleinement utiliser toutes les fonctions du fichier [user_functions.py](https://github.com/crypthe0/Sports-betting/blob/master/sportsbetting/user_functions.py), il est nécessaire d'initialiser la base de matches sur lesquels on peut potentiellement parier. Par exemple, si l'on veut uniquement se concentrer sur les matches de Ligue 1 Française, et que l'on veut seulement parier sur Betclic et Winamax, on écrira :
 ```python
 >>> parse_competition("ligue 1 france", "football", "betclic", "winamax")
 ```
@@ -281,12 +281,12 @@ pip install -r requirements.txt
 >>> import sportsbetting
 >>> from sportsbetting.user_functions import *
 ```
-- You can now use any function from [user_functions.py](https://github.com/pretrehr/Sports-betting/blob/master/sportsbetting/user_functions.py)
+- You can now use any function from [user_functions.py](https://github.com/crypthe0/Sports-betting/blob/master/sportsbetting/user_functions.py)
 
 
 
 ## Initialization
-Before you can fully use all the functions in the [user_functions.py](https://github.com/pretrehr/Sports-betting/blob/master/sportsbetting/user_functions.py) file, it is necessary to initialize the database of matches you can potentially bet on. For example, if you only want to focus on French Ligue 1 matches, and you only want to bet on Betclic and Winamax, you would write :
+Before you can fully use all the functions in the [user_functions.py](https://github.com/crypthe0/Sports-betting/blob/master/sportsbetting/user_functions.py) file, it is necessary to initialize the database of matches you can potentially bet on. For example, if you only want to focus on French Ligue 1 matches, and you only want to bet on Betclic and Winamax, you would write :
 ```python
 >>> parse_competition("ligue 1 france", "football", "betclic", "winamax")
 ```

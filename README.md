@@ -314,24 +314,23 @@ You will find below a summary table of the different French bookmakers with the 
 
 | Bookmaker | String |
 | ------------- | ------------- |
-| [Betclic](https://www.betclic.fr/sport/) | ``"betclic"" |
-| [BetStars](https://www.betstars.fr/) | ``betstars"` |
-| [Bwin](https://sports.bwin.fr/fr/sports) | "bwin" |
-| [France Pari](https://www.france-pari.fr/) | `"france_pari"` |
-| [JOA](https://www.joa-online.fr/fr/sport) | "joa"` |
-| [NetBet](https://www.netbet.fr/) | `"netbet"` |
-| [Pariels Sport](https://www.enligne.parionssport.fdj.fr/) |
-| [PasinoBet](https://www.pasinobet.fr/) ||"pasinobet"` |
-| [PMU](https://paris-sportifs.pmu.fr/) |"pmu"` |
-| [Unibet](https://www.unibet.fr/sport) |
-| [Winamax](https://www.winamax.fr/paris-sportifs/sports/) |
-| [Zebet](https://www.zebet.fr/fr/) |
+| [Betclic](https://www.betclic.fr/sport/)  | `"betclic"`  |
+| [Bwin](https://sports.bwin.fr/fr/sports)  | `"bwin"`  |
+| [France Pari](https://www.france-pari.fr/)  | `"france_pari"`  |
+| [JOA](https://www.joa-online.fr/fr/sport)  | `"joa"` |
+| [NetBet](https://www.netbet.fr/)  | `"netbet"` |
+| [Parions Sport](https://www.enligne.parionssport.fdj.fr/) |`"parionssport"` |
+| [PasinoBet](https://www.pasinobet.fr/) |`"pasinobet"` |
+| [PMU](https://paris-sportifs.pmu.fr/) |`"pmu"` |
+| [PokerStars](https://www.pokestarssport.fr/)  | `"pokerstars"`  |
+| [Unibet](https://www.unibet.fr/sport) |`"unibet"` |
+| [Winamax](https://www.winamax.fr/paris-sportifs/sports/) |`"winamax"` |
+| [Zebet](https://www.zebet.fr/fr/) |`"zebet"` |
 
 *Note bene*: It is currently not possible to use the package for the following bookmakers:
 - [Feelingbet](https://feelingbet.fr/) which offers very few promotions. But if necessary, the odds available on this site are identical to those available on [France Pari](https://www.france-pari.fr/).
 - [Genybet](https://sport.genybet.fr/) which focuses more on horse betting rather than sports betting.
 - Vbet](https://www.vbet.fr/paris-sportifs) which offers numerous but very restrictive and therefore unprofitable promotions.
-
 
 ## Examples of use
 
@@ -339,6 +338,7 @@ The bonuses received are almost always freebets (or paris gratuits). Such a bonu
 We will see later that it is possible to win back 80% of the value of a freebet with certainty. Thus, a €10 freebet is equivalent to 10 × 0.8 = €8.
 
 The examples below are examples of promotions that regularly appear at the different bookmakers. You will find a description of how to get the most out of these promotions. This list is naturally not exhaustive and it is up to you to adapt these examples to the conditions of the promotions you will encounter in the future.
+
 ### Example 1: Bonus received in all cases if you bet on a given match
 France-pari very often offers a promotion which consists in betting a €20 bet on a specific Ligue 1 match at a minimum odds of 2 to receive a €5 freebet.
 For example, for the 20th round of Ligue 1 2019/2020, the proposed match was Dijon - Metz.
@@ -348,7 +348,6 @@ You just have to execute:
 >>> best_stakes_match("Dijon - Metz", "france_pari", 20, 2, "football")
 ```
 If the minimum raise is more than 5 × 0.8 = €4, then this promotion is profitable and we can split our bets as specified.
-
 
 ### Example 2: Bonus received in all cases if you bet on any match, possibly from a given competition / sport
 If there are no conditions on the game to be played, we can execute
@@ -431,7 +430,6 @@ Please note: Be careful not to confuse `best_match_freebet` with `best_matches_f
 
 Note that some sites like NetBet or PMU sometimes offer freebets that are only playable on a single sport. In this case, you have to adapt the sport to the situation.
 This method is on average much less profitable and much more volatile than the first two. The first two methods ensure a return rate of between 77 and 85% of the sum of freebets placed.  With the third method, a return rate between 55 and 70% is to be expected.
-
 
 ## Disclaimer
 This project aims to help the user to free up money by getting as close as possible to the absence of risk. Nevertheless, it is important to specify that zero risk does not exist and that the odds published by bookmakers are intended to evolve over time. It is therefore your responsibility to make sure that the information displayed by the Sports-betting application is reliable. As the creator, I cannot be held responsible for any loss of capital that may occur during the use of the application.
